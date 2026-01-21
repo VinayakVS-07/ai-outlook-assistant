@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<customUI onLoad="Ribbon_Load" xmlns="http://schemas.microsoft.com/office/2006/01/customui">
+    <ribbon>
+        <tabs>
+            <tab idMso="TabAddIns" label="AI Assist">
+                <group id="groupAITools" label="AI Tools">
+                    <button id="btnCasual" screentip="Convert to casual mail" label="Convert Casual" size="large" />
+                    <button id="btnFormal" screentip="Convert to formal mail" label="Convert Formal" size="large" />
+                    <button id="btnSpellCheck" screentip="Check spelling" label="Spell Check" size="large" />
+                    <button id="btnlanguage" screentip="To change language" label="Language Change" size="large" />
+                    <dialogBoxLauncher>
+                        <button id="groupAITools__btn" />
+                    </dialogBoxLauncher>
+                </group>
+            </tab>
+        </tabs>
+    </ribbon>
+</customUI>

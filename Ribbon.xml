@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<customUI onLoad="Ribbon_Load" xmlns="http://schemas.microsoft.com/office/2006/01/customui">
+    <ribbon>
+        <tabs>
+            <tab idMso="TabAddIns">
+                <group id="group1" label="group1">
+                    <button id="btnAskAI" onAction="btnAskAI_Click" screentip="&quot;Get help from OpenAI" label="Ask AI" />
+                    <gallery id="gallery1" onAction="gallery1_Click" label="gallery1" />
+                    <dialogBoxLauncher>
+                        <button id="group1__btn" />
+                    </dialogBoxLauncher>
+                </group>
+            </tab>
+        </tabs>
+    </ribbon>
+</customUI>
