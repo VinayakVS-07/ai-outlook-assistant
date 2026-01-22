@@ -34,7 +34,7 @@ namespace OutlookAddIn1
 
         public static async Task<string> CallGeminiAsyncStatic(string prompt)
         {
-            var apiKey = "AIzaSyD50oRMn2liwrw2DLm41uFBi5LILuUYCuE";
+            var apiKey = "";
             var url = $"https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent?key={apiKey}";
 
             var requestBody = new
